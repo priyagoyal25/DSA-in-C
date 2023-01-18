@@ -3,7 +3,7 @@
 int a[max],pivot,low,high;
 int partition(int a[],int low,int high){
     pivot=a[low];
-    int i=low+1;
+    int i=low;
     int j=high;
     int temp;
     //until I find j<i
